@@ -1,3 +1,5 @@
+Note: I only needed this to work with Sitecore 8.2 so I may have trampled over configs for 7.x :/
+
 # WeBlog #
 
 A blog module for Sitecore 7.0+
