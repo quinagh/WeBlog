@@ -1,0 +1,28 @@
+﻿---
+ID: "0fe9a2a0-e85e-4cff-a62c-84b00f56c517"
+Parent: "5ee0b15c-a89f-433d-a56f-4059687eff2a"
+Template: "5ee0b15c-a89f-433d-a56f-4059687eff2a"
+Path: /sitecore/templates/Modules/WeBlog/Extended Email action/__Standard Values
+DB: master
+SharedFields:
+- ID: "3e3db713-5a6e-4eda-9c96-a739f27ff79a"
+  Hint: To
+  Value: $entryUpdatedBy.get_Email
+- ID: "63837207-5a36-4080-9367-2f077200a3be"
+  Hint: Type
+  Value: Sitecore.Modules.WeBlog.Workflow.ExtendedMailAction, Sitecore.Modules.WeBlog
+- ID: "e8a676de-ddc6-4418-824d-5e2ef3fa9af8"
+  Hint: From
+  Value: Sitecore WeBlog <no_reply@sitecore.net>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20111018T112744
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

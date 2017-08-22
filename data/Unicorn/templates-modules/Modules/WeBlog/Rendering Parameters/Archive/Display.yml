@@ -1,0 +1,18 @@
+﻿---
+ID: "9230dfd8-0e6a-4f3b-9d63-798072d0767b"
+Parent: "09df97a9-2d05-4c9e-8a7f-55794fd98122"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Modules/WeBlog/Rendering Parameters/Archive/Display
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151207T215220Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

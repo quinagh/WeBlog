@@ -1,0 +1,18 @@
+﻿---
+ID: "5b297e4f-329f-45bc-b2e4-ac95380ea779"
+Parent: "8b102fcf-a4dd-417d-86c0-260cfc23923e"
+Template: "93227c5d-4fef-474d-94c0-f252ec8e8219"
+Path: /sitecore/layout/Renderings/WeBlog/MVC/Sidebar
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151005T201534Z

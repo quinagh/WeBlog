@@ -1,0 +1,42 @@
+﻿---
+ID: "ba5dad8b-207d-4ade-99ad-2b77b563bca4"
+Parent: "d0852af7-e3f7-4b9f-9265-79e8506b4858"
+Template: "f62b4cd7-754c-4461-810f-2b6bd2c92a0d"
+Path: /sitecore/client/Applications/WeBlog/Import/PageSettings/TabControl Parameters/Select File
+DB: core
+SharedFields:
+- ID: "deab3795-056f-4421-adf0-758844461b72"
+  Hint: Placeholder Name
+  Value: Tab
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          id="{73C16115-8B56-43AF-8EA3-4D704FCDA127}"
+          par="Id=Separator"
+          uid="{5FF0FF7B-512B-4559-8C7D-E9F46A31389A}" />
+        <r
+          id="{B2257CAC-47CA-4061-9352-C06D687ED32C}"
+          par="Database=master&amp;Id=Uploader&amp;DestinationUrl=%2fsitecore%2fmedia+library%2fModules%2fWeBlog%2fImport"
+          uid="{BD355B8A-F453-4519-B25C-6DE7DB5B63B4}" />
+      </d>
+    </r>
+- ID: "fadd4553-bc08-4cbb-8099-5bc2c1f8a892"
+  Hint: Is Active
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160315T211215Z
+    - ID: "aea872fb-aa91-4d1a-b877-3ca6fbbb4fd4"
+      Hint: Header
+      Value: Tab

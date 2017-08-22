@@ -1,0 +1,54 @@
+﻿---
+ID: "d53fdeba-4b4b-4cc7-a244-932c1d0a84cf"
+Parent: "d0852af7-e3f7-4b9f-9265-79e8506b4858"
+Template: "f62b4cd7-754c-4461-810f-2b6bd2c92a0d"
+Path: /sitecore/client/Applications/WeBlog/Import/PageSettings/TabControl Parameters/Select Templates
+DB: core
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 250
+- ID: "deab3795-056f-4421-adf0-758844461b72"
+  Hint: Placeholder Name
+  Value: Tab
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          id="{73C16115-8B56-43AF-8EA3-4D704FCDA127}"
+          par="Id=Separator1"
+          uid="{5FF0FF7B-512B-4559-8C7D-E9F46A31389A}" />
+        <r
+          id="{08B6767B-8E8A-41C8-8880-EFEBB4EAE0E3}"
+          par="Id=TemplateMappingItem&amp;RootItem=%7b0B1FD353-3175-43A0-9A81-13B18D99408E%7d&amp;IsCheckboxEnabled=0"
+          uid="{503E45F2-4205-4B35-895F-1830DD16F2F3}" />
+        <r
+          id="{73C16115-8B56-43AF-8EA3-4D704FCDA127}"
+          par="Id=Separator"
+          uid="{5FF0FF7B-512B-4559-8C7D-E9F46A31389A}" />
+        <r
+          ds="{41C269E0-25DA-4609-96CA-CB5FA2F8904C}"
+          id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}"
+          par="Id=TemplatesMappingButton&amp;IsVisible=0&amp;ButtonType=Inverse&amp;Text=Next&amp;Dimension=Normal"
+          uid="{052AF944-E99E-456B-99E2-CE11C4BEC825}" />
+      </d>
+    </r>
+- ID: "fadd4553-bc08-4cbb-8099-5bc2c1f8a892"
+  Hint: Is Active
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160315T211215Z
+    - ID: "aea872fb-aa91-4d1a-b877-3ca6fbbb4fd4"
+      Hint: Header
+      Value: Tab

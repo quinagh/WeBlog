@@ -1,0 +1,22 @@
+﻿---
+ID: "69295495-7625-4198-9b39-7a948cafadbb"
+Parent: "8b102fcf-a4dd-417d-86c0-260cfc23923e"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/WeBlog/MVC/SubmitComment
+DB: master
+SharedFields:
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: BlogSubmitComment
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "SubmitComment - MVC"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151029T211846Z

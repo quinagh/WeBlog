@@ -1,0 +1,18 @@
+﻿---
+ID: "d0852af7-e3f7-4b9f-9265-79e8506b4858"
+Parent: "a0f0f406-9e6f-4e4c-b045-db223f1116ec"
+Template: "87fe4e75-d567-4873-81b1-cf8560667ee0"
+Path: /sitecore/client/Applications/WeBlog/Import/PageSettings/TabControl Parameters
+DB: core
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160315T211158Z

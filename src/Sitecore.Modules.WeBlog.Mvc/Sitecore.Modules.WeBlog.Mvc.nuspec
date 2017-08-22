@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Sitecore.Modules.WeBlog.Mvc</id>
+    <version>1.0</version>
+    <title>WeBlog module for SOLR</title>
+    <authors>cup08</authors>
+    <owners>cup08</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WeBlog</description>
+    <releaseNotes>Initial Package</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+  </metadata>
+  <files>
+    <file src="bin\sc82\Sitecore.Modules.WeBlog.MVC.*" target="bin"/>
+    <file src="bin\sc82\Recaptcha.dll" target="bin"/>
+    <file src="App_Config\**" target="App_Config"/>
+    <file src="Views\**" target="Views"/>
+  </files>
+</package>

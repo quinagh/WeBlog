@@ -1,0 +1,47 @@
+﻿---
+ID: "abb4393a-2eb8-4c82-8863-e95f52c9e05f"
+Parent: "6bbb4908-d15c-4937-9e20-40a217a2597b"
+Template: "b960cbe4-381f-4a2b-9f44-a43c7a991a0b"
+Path: /sitecore/templates/Branches/Modules/WeBlog/Blog WebForms/$name/Blog entries
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-20"
+- ID: "d9409da1-2614-4cff-ad9b-6ed1a1688b33"
+  Hint: Cacheable
+  Type: Checkbox
+  Value: 1
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{A57C19C2-8EE3-4DEC-AA39-0B8D522D59EB}" />
+      <d
+        id="{73966209-F1B6-43CA-853A-F1DB1C9A654B}"
+        l="{A57C19C2-8EE3-4DEC-AA39-0B8D522D59EB}" />
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "16cc56dd-27f5-4839-b790-dbbd9aca882c"
+      Hint: Title
+      Value: Blog Entries
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20111017T171530
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "72c481b9-f789-4457-838f-2329eb8469c2"
+      Hint: Source
+      Value: "query:.././/*[@@templateid='$weblogsetting(EntryTemplateID)']"
+    - ID: "770878c5-ee73-4967-aff5-d0f402523fdf"
+      Hint: Description
+      Value: The latest blog entries

@@ -1,0 +1,46 @@
+﻿---
+ID: "056be14e-6220-4e50-bfef-87af6d055cdc"
+Parent: "c296ac1e-3fe6-4bb9-86ee-7840ffa4368b"
+Template: "c296ac1e-3fe6-4bb9-86ee-7840ffa4368b"
+Path: /sitecore/templates/Modules/WeBlog/Rendering Parameters/Twitter/__Standard Values
+DB: master
+SharedFields:
+- ID: "0cbe41c4-2215-45b6-b1d3-cb3426d9da80"
+  Hint: LinkColour
+  Value: 
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+- ID: "4e9bb592-c0f2-42cb-9fd8-13e540a2d825"
+  Hint: Width
+  Value: 
+- ID: "730a9acd-822d-4810-8c6e-868e8f39953e"
+  Hint: Height
+  Value: 
+- ID: "95f562de-090c-4dbf-a849-90b5904e77db"
+  Hint: Theme
+  Value: 
+- ID: "a13b14c3-50d8-491d-aa90-4a0e29ef028a"
+  Hint: NumberOfTweets
+  Value: 
+- ID: "ab5691bf-8d8f-4712-8d4f-4a98ec47c881"
+  Hint: Chrome
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+- ID: "c2169edc-2c5e-4889-a354-b1aa4b51a1bc"
+  Hint: BorderColour
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20111011T134442
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

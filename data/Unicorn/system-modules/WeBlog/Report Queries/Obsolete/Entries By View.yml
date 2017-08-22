@@ -1,0 +1,80 @@
+﻿---
+ID: "75c64874-2803-40fd-a3b2-3e89637bf8ea"
+Parent: "bae2ce39-deb4-4fbe-bfe2-2ac41d1e66cf"
+Template: "a90f48c4-4d4f-41d7-8497-070a9a50304e"
+Path: /sitecore/system/Modules/WeBlog/Report Queries/Obsolete/Entries By View
+DB: master
+SharedFields:
+- ID: "72b1c86f-ae19-4534-abcf-0692378d41cf"
+  Hint: Data Source
+  Value: reporting
+- ID: "a61cc636-3272-4fb6-bcf9-762940047a78"
+  Hint: Query
+  Value: |
+    SELECT
+    	[ItemId]
+    FROM
+    	[Fact_PageViews]
+    WHERE
+    	[ItemId] in (@EntryIds)
+    GROUP BY
+    	[ItemId]
+    ORDER BY
+    	SUM(Visits) DESC
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Gennemsnitlig tid på side
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20150223T132643:635602948033788060Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Durchschnittliche Zeit auf der Seite
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20150223T132802:635602948824879592Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20110311T105940
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ページ毎の平均時間
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20150223T132524:635602947249589807Z"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

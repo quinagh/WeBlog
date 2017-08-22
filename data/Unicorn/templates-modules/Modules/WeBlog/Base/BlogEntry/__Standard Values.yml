@@ -1,0 +1,50 @@
+﻿---
+ID: "473bc0f2-82ca-4fe8-b40f-24643e91215b"
+Parent: "857fd02f-d166-42cc-944b-c97159a259aa"
+Template: "857fd02f-d166-42cc-944b-c97159a259aa"
+Path: /sitecore/templates/Modules/WeBlog/Base/BlogEntry/__Standard Values
+DB: master
+SharedFields:
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Type: Checkbox
+  Value: 1
+- ID: "cbda26a1-e7e5-437a-9fd7-95ef15810e50"
+  Hint: Entry Date
+  Value: $now
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{73966209-F1B6-43CA-853A-F1DB1C9A654B}"
+        l="{A57C19C2-8EE3-4DEC-AA39-0B8D522D59EB}">
+        <r
+          id="{86F838F5-7E87-45BB-876F-C021324AC8B0}"
+          par="TitleField=Title&amp;BodyField=Content&amp;DateField=Entry+Date"
+          uid="{28E85A4C-1316-48A6-9AD8-21E15E66204A}" />
+      </d>
+    </r>
+- ID: "f7b94d8c-a842-49f8-ab7a-2169d00426b0"
+  Hint: __Should Not Organize In Bucket
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151129T135058Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "a99a1591-f367-48a0-8900-e5dcbc8b528f"
+      Hint: Title
+      Value: $name
+    - ID: "b1755ff7-eaa6-4e04-9d25-bebffe9546f6"
+      Hint: Author
+      Value: $currentuser

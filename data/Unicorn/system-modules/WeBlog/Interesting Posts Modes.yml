@@ -1,0 +1,23 @@
+﻿---
+ID: "a8ae98be-b7e8-4eb8-9778-66c9a8fe3f4b"
+Parent: "6a635c75-f807-4fec-a67d-b90dd7c39b44"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Modules/WeBlog/Interesting Posts Modes
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{8250C2BD-BA2D-49B9-8E9A-7701C648A477}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20111018T173405
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

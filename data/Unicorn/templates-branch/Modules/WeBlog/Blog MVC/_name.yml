@@ -1,0 +1,14 @@
+﻿---
+ID: "f2dd30b3-7c08-47e5-b2b7-68a1a21a8c2e"
+Parent: "8f890a99-5ad0-48b9-b930-b44bec524840"
+Template: "0ab5aad6-6c0f-4f1e-af20-37571248f7c4"
+Path: /sitecore/templates/Branches/Modules/WeBlog/Blog MVC/$name
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151031T160619Z

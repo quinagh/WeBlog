@@ -1,0 +1,14 @@
+﻿---
+ID: "8b102fcf-a4dd-417d-86c0-260cfc23923e"
+Parent: "5f870adf-b1d0-4a69-86cb-2bdca7f5ee2f"
+Template: "93227c5d-4fef-474d-94c0-f252ec8e8219"
+Path: /sitecore/layout/Renderings/WeBlog/MVC
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150926T205837Z

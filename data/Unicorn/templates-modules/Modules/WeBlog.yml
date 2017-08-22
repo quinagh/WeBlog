@@ -1,0 +1,26 @@
+﻿---
+ID: "086114a3-c0bc-4c50-acd7-8e6f9742f728"
+Parent: "e6904c9a-3ace-4b53-b465-4c05c6b1f1cc"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Modules/WeBlog
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {78CF88BA-6957-4366-8368-12F3CED0184F}
+    {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
+    {B2613CC1-A748-46A3-A0DB-3774574BD339}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20081030T213900
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

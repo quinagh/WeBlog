@@ -1,0 +1,18 @@
+﻿---
+ID: "3b3dd82b-127f-406f-9d4d-2f9816d43867"
+Parent: "e7fe27d8-1999-492a-99bf-53e66c2fc310"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Modules/WeBlog/Theme/Script/Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160102T113126Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

@@ -1,0 +1,31 @@
+﻿---
+ID: "e7d76387-94b5-4aad-bc1c-fe852348e42f"
+Parent: "df2362ca-3e46-4b35-a86f-ebf830b4a6cf"
+Template: "e7fe27d8-1999-492a-99bf-53e66c2fc310"
+Path: /sitecore/system/Modules/WeBlog/Themes/Akira/jQuery
+DB: master
+SharedFields:
+- ID: "5ec4e81f-f566-4106-aa29-25c2e21317a3"
+  Hint: Verification Object
+  Value: jQuery
+- ID: "906c629f-e173-4b48-b415-32eb14474592"
+  Hint: Url
+  Value: "//code.jquery.com/jquery-1.12.0.min.js"
+- ID: "a124de7f-0a96-4117-8ef7-9550cff6e39e"
+  Hint: Fallback Url
+  Value: /sitecore modules/Web/WeBlog/Themes/common/lib/jquery.js
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160212T124339Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

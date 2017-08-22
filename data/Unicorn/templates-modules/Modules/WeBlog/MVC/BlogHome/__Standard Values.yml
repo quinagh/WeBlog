@@ -1,0 +1,132 @@
+﻿---
+ID: "f70564e0-ff2a-4f1f-807f-3f067856bcec"
+Parent: "0ab5aad6-6c0f-4f1e-af20-37571248f7c4"
+Template: "0ab5aad6-6c0f-4f1e-af20-37571248f7c4"
+Path: /sitecore/templates/Modules/WeBlog/MVC/BlogHome/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{BE9675B1-4951-4E11-B935-A698227B6A97}"
+- ID: "11f0464c-52cf-44e8-9431-c1278c2a146e"
+  Hint: Defined Category Template
+  Value: "{6C455315-01BF-4E2E-9BA3-31B5695E9C77}"
+- ID: "77ba5a31-eb0e-47a4-a7b9-14d195c0b461"
+  Hint: Enable RSS
+  Type: Checkbox
+  Value: 1
+- ID: "85184f37-810a-4a0c-be78-ff6b60034c15"
+  Hint: Enable Comments
+  Type: Checkbox
+  Value: 1
+- ID: "a0cb3965-8884-4c7a-8815-b6b2e5ced162"
+  Hint: __Editors
+  Type: TreelistEx
+  Value: "{59F53BBB-D1F5-4E38-8EBA-0D73109BB59B}"
+- ID: "bc8dc567-a580-45c0-8b52-c4f10a10a1e7"
+  Hint: Defined Entry Template
+  Value: "{BE9675B1-4951-4E11-B935-A698227B6A97}"
+- ID: "c7815f60-96e1-40cb-bb06-b5f833f73b61"
+  Hint: __Persistent Bucket Filter
+  Value: 
+- ID: "ed011016-ac3d-4377-8c8b-2ea6ef2860fc"
+  Hint: Gravatar Size
+  Value: 45
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{F90AE597-8499-4557-A0D5-64EB5135A5B7}">
+        <r
+          ds=""
+          id="{B62C7429-C491-4815-81EB-214903DB76E4}"
+          par=""
+          ph="weblog-content"
+          uid="{519F319A-BB46-4A00-8319-B10CD5FF6031}" />
+        <r
+          ds=""
+          id="{B4FA3FA9-FC75-42B5-99CA-499F778251BB}"
+          par="PostTemplate"
+          ph="weblog-main"
+          uid="{7B572A4F-D434-4EE0-8298-2784298B7EE1}" />
+        <r
+          cac="1"
+          ds=""
+          id="{1009037A-4F6B-45F0-B55F-F9D5CE37C8CE}"
+          par="VaryByBlog=1"
+          ph="weblog-sidebar"
+          uid="{9AB0519F-753B-43E5-9DB2-9D23D4334960}"
+          vbp="1" />
+        <r
+          cac="1"
+          ds=""
+          id="{B1D7C514-F638-4531-9824-070AC21932B8}"
+          par="VaryByBlog=1"
+          ph="weblog-sidebar"
+          uid="{57F227FA-295A-4A67-BE15-1FC30303BF6A}"
+          vbp="1" />
+        <r
+          cac="1"
+          ds=""
+          id="{46A3FA47-F01A-42AF-9F83-4EB04ACE7235}"
+          par="VaryByBlog=1"
+          ph="weblog-sidebar"
+          uid="{DAC7C38C-B5FA-4855-ABBC-AEB4EF82D4DB}"
+          vbp="1" />
+        <r
+          cac="1"
+          ds=""
+          id="{936CF0DC-E259-4966-8944-16400899A17C}"
+          ph="weblog-sidebar"
+          uid="{5DA6458D-B784-4922-946E-FAED0F7647F0}"
+          vbp="1" />
+        <r
+          id="{D9D6833D-F044-4204-B7C9-3912135E32EA}"
+          ph="weblog-sidebar"
+          uid="{C3B62E5E-A929-42D6-8B12-FE0471EA8115}" />
+        <r
+          ds=""
+          id="{240F2B73-20D6-4476-80E2-0D23FF841562}"
+          par=""
+          ph="weblog-sidebar"
+          uid="{2C93122A-AC9A-40F6-BA99-76D8977E4C40}" />
+      </d>
+      <d
+        id="{CF7D07C2-F835-4313-B01D-7AADCA72D24B}"
+        l="{EE93A8A4-6272-42B6-8329-8F28F631F412}">
+        <r
+          ds=""
+          id="{B4FA3FA9-FC75-42B5-99CA-499F778251BB}"
+          par="PostTemplate"
+          ph="weblog-content"
+          uid="{E7C0A81B-427F-4B72-8FCC-2FBB2A551CEA}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04aad5fa-ba6b-4e0e-9540-e75e53b23f34"
+      Hint: DisplayCommentSidebarCount
+      Value: 5
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151031T145431Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "758ca141-3f6a-4806-a511-2953f5b54f3e"
+      Hint: Title
+      Value: $name
+    - ID: "bad8e75c-bd7c-475a-a7b8-8b3600baa26c"
+      Hint: DisplayItemCount
+      Value: 10
+    - ID: "df7cab47-015f-430f-8bae-452a4d2d7a17"
+      Hint: Theme
+      Value: "{DF2362CA-3E46-4B35-A86F-EBF830B4A6CF}"

@@ -1,0 +1,24 @@
+﻿---
+ID: "43436bda-e260-4ff0-85d5-dc6e09fabe12"
+Parent: "a0f0f406-9e6f-4e4c-b045-db223f1116ec"
+Template: "6437cfd5-76ca-48aa-bfbd-8b8d73eb5581"
+Path: /sitecore/client/Applications/WeBlog/Import/PageSettings/Header Title Text
+DB: core
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160315T195903Z
+    - ID: "3564b3d0-3804-4d86-9880-b5e7473ef56c"
+      Hint: Text
+      Value: WordPress Import 
+    - ID: "e17d3534-a424-47e3-8f2c-3dbba705565f"
+      Hint: Tooltip
+      Value: WordPress Import 

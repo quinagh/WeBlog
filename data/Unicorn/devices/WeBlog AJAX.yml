@@ -1,0 +1,25 @@
+﻿---
+ID: "cf7d07c2-f835-4313-b01d-7aadca72d24b"
+Parent: "e18f4bc6-46a2-4842-898b-b6613733f06f"
+Template: "b6f7eeb4-e8d7-476f-8936-5ace6a76f20b"
+Path: /sitecore/layout/Devices/WeBlog AJAX
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/scroll_replace.png
+- ID: "32326f99-c0da-4817-9dbe-79e6de8005e4"
+  Hint: Query string
+  Value: blogAjax=1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20101024T093800
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

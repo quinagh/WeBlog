@@ -1,0 +1,40 @@
+﻿---
+ID: "1009037a-4f6b-45f0-b55f-f9d5ce37c8ce"
+Parent: "5b297e4f-329f-45bc-b2e4-ac95380ea779"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/WeBlog/MVC/Sidebar/Categories
+DB: master
+SharedFields:
+- ID: "3ad2506a-dc39-4b1e-959f-9d524addbf50"
+  Hint: VaryByParm
+  Type: Checkbox
+  Value: 1
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Type: Checkbox
+  Value: 1
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/WeBlog/Categories.cshtml
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{43ABB60C-C4D4-40B9-95CE-04473C492FE2}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{82DD33B0-787D-4096-BF35-55FAA40A8A29}" mediapath="/Modules/WeBlog/Categories" src="~/media/Modules/WeBlog/Categories.ashx" />
+- ID: "ddab263e-b42e-419a-aa6f-081b7393ca38"
+  Hint: Model
+  Value: /sitecore/layout/Models/WeBlog/Categories
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Categories - MVC"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151008T204054Z

@@ -1,0 +1,45 @@
+﻿---
+ID: "d474d5cf-97e3-45ec-95f3-5a10ba0a9bac"
+Parent: "5f870adf-b1d0-4a69-86cb-2bdca7f5ee2f"
+Template: "1dde3f02-0bd7-4779-867a-dc578adf91ea"
+Path: /sitecore/layout/Renderings/WeBlog/Theme Includes
+DB: master
+SharedFields:
+- ID: "1f424eb0-6138-4bc4-93b0-bd45ec6b1cb2"
+  Hint: Namespace
+  Value: Sitecore.Modules.WeBlog.WebControls
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Type: Checkbox
+  Value: 1
+- ID: "8b6d532b-6128-4486-a044-ca06d90948ba"
+  Hint: VaryByData
+  Type: Checkbox
+  Value: 1
+- ID: "b8979e80-7623-4b3a-bfd2-3f3f05883d58"
+  Hint: Tag
+  Value: ThemeIncludes
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 99
+- ID: "c50b1f5b-26da-476a-aac6-9b734975971c"
+  Hint: Assembly
+  Value: Sitecore.Modules.WeBlog.dll
+- ID: "e2abdec6-83a6-4b68-97d1-b3cd79f10a8e"
+  Hint: TagPrefix
+  Value: wb
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20110627T072900
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

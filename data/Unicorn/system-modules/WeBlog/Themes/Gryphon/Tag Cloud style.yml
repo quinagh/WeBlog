@@ -1,0 +1,25 @@
+﻿---
+ID: "809c14a4-009c-40ac-90e5-24dcecd5f4fc"
+Parent: "d2e889b8-6916-42bb-a12f-e88de460bb6f"
+Template: "e12aa8e5-d615-4014-916c-7e482cc4e83e"
+Path: /sitecore/system/Modules/WeBlog/Themes/Gryphon/Tag Cloud style
+DB: master
+SharedFields:
+- ID: "906c629f-e173-4b48-b415-32eb14474592"
+  Hint: Url
+  Value: "/sitecore modules/Web/WeBlog/Themes/common/tag-cloud.css"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160214T101308Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

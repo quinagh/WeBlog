@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <Import Project="..\..\build configurations.targets" />
-  <Import Project="..\..\deploy.targets" Condition="Exists('..\..\deploy.targets')" />
+  <!--  <Import Project="..\..\deploy.targets" Condition="Exists('..\..\deploy.targets')" />-->
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -22,6 +22,8 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition="$(Configuration.Contains('Debug'))">
     <DebugSymbols>true</DebugSymbols>
@@ -47,12 +49,20 @@
       <HintPath>..\..\packages\AntiXSS.4.3.0\lib\net40\AntiXssLibrary.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Configy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Configy.1.0.0\lib\net45\Configy.dll</HintPath>
+    </Reference>
     <Reference Include="CookComputing.XmlRpcV2">
       <HintPath>..\..\lib\CookComputing.XmlRpcV2.dll</HintPath>
     </Reference>
-    <Reference Include="HtmlAgilityPack">
-      <HintPath>$(SitecorePath)\bin\HtmlAgilityPack.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="HtmlAgilityPack, Version=1.4.6.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\HtmlAgilityPack.1.4.6\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Kamsar.WebConsole, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Kamsar.WebConsole.2.0.0\lib\net40\Kamsar.WebConsole.dll</HintPath>
+    </Reference>
+    <Reference Include="MicroCHAP, Version=1.2.2.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MicroCHAP.1.2.2.2\lib\net45\MicroCHAP.dll</HintPath>
     </Reference>
     <Reference Include="MSCaptcha" Condition="$(Configuration.Contains('sc7.0'))">
       <HintPath>..\..\lib\MSCaptcha\v1.0\MSCaptcha.dll</HintPath>
@@ -63,57 +73,60 @@
     <Reference Include="MSCaptcha" Condition="$(Configuration.Contains('sc8.0')) or $(Configuration.Contains('sc8.2'))">
       <HintPath>..\..\lib\MSCaptcha\v4.0\MSCaptcha.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Analytics">
-      <HintPath>$(SitecorePath)\bin\Sitecore.Analytics.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Sitecore.Client">
-      <HintPath>$(SitecorePath)\bin\Sitecore.Client.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Rainbow, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Rainbow.Core.2.0.0\lib\net452\Rainbow.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.ContentSearch">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(SitecorePath)\bin\Sitecore.ContentSearch.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Rainbow.Storage.Sc, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Rainbow.Storage.Sc.2.0.0\lib\net452\Rainbow.Storage.Sc.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.ContentSearch.Linq">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(SitecorePath)\bin\Sitecore.ContentSearch.Linq.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Rainbow.Storage.Yaml, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Rainbow.Storage.Yaml.2.0.0\lib\net452\Rainbow.Storage.Yaml.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.ExperienceEditor" Condition="$(DefineConstants.Contains('FEATURE_EXPERIENCE_EDITOR'))">
-      <HintPath>$(SitecorePath)\bin\Sitecore.ExperienceEditor.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.Analytics, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Sitecore.Analytics.NoReferences.8.2.170407\lib\NET452\Sitecore.Analytics.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.ExperienceEditor.Speak" Condition="$(DefineConstants.Contains('FEATURE_EXPERIENCE_EDITOR'))">
-      <HintPath>$(SitecorePath)\bin\Sitecore.ExperienceEditor.Speak.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.Buckets, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Sitecore.Buckets.NoReferences.8.2.170407\lib\NET452\Sitecore.Buckets.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Kernel">
-      <HintPath>$(SitecorePath)\bin\Sitecore.Kernel.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.Client, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Sitecore.Client.NoReferences.8.2.170407\lib\NET452\Sitecore.Client.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.NVelocity">
-      <HintPath>$(SitecorePath)\bin\Sitecore.NVelocity.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.ContentSearch, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Sitecore.ContentSearch.NoReferences.8.2.170407\lib\NET452\Sitecore.ContentSearch.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Buckets">
-      <HintPath>$(SitecorePath)\bin\Sitecore.Buckets.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.ContentSearch.Linq, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Sitecore.ContentSearch.Linq.NoReferences.8.2.170407\lib\NET452\Sitecore.ContentSearch.Linq.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Services.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(SitecorePath)\bin\Sitecore.Services.Core.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.ExperienceEditor, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Sitecore.ExperienceEditor.NoReferences.8.2.170407\lib\NET452\Sitecore.ExperienceEditor.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Services.Infrastructure">
-      <HintPath>$(SitecorePath)\bin\Sitecore.Services.Infrastructure.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.ExperienceEditor.Speak, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Sitecore.ExperienceEditor.Speak.NoReferences.8.2.170407\lib\NET452\Sitecore.ExperienceEditor.Speak.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Kernel, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Sitecore.Kernel.NoReferences.8.2.170407\lib\NET452\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.NVelocity, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Sitecore.NVelocity.NoReferences.8.2.170407\lib\NET452\Sitecore.NVelocity.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Services.Core, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Sitecore.Services.Core.NoReferences.8.2.170407\lib\NET452\Sitecore.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Services.Infrastructure, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Sitecore.Services.Infrastructure.NoReferences.8.2.170407\lib\NET452\Sitecore.Services.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.DynamicData" />
@@ -121,10 +134,8 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Web.Http">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(SitecorePath)\bin\System.Web.Http.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
@@ -132,6 +143,9 @@
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="System.Web.Mobile" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="Unicorn, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Unicorn.Core.4.0.0\lib\net452\Unicorn.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\SolutionInfo.cs">
@@ -301,15 +315,11 @@
   </ItemGroup>
   <ItemGroup>
     <CodeAnalysisDictionary Include="CustomDictionary.xml" />
-    <Content Include="App_Config\Include\WeBlog.ContentSearch.Master.SC70.xslt" />
-    <Content Include="App_Config\Include\WeBlog.ContentSearch.SC70.xslt" />
-    <Content Include="App_Config\Include\WeBlog.ContentSearch.Web.SC70.xslt" />
-    <Content Include="App_Config\Include\WeBlog.ContentSearch.Web.SC72.xslt" />
-    <Content Include="App_Config\Include\WeBlog.ContentSearch.Master.SC72.xslt" />
-    <Content Include="App_Config\Include\WeBlog.ContentSearch.SC72.xslt" />
     <Content Include="App_Config\Include\WeBlog.config.delivery.xslt" />
     <Content Include="App_Config\Include\WeBlog.config.noremote.xslt" />
-    <Content Include="Change Log.txt" />
+    <Content Include="App_Config\Include\WeBlog.Unicorn.Serialization.config" />
+    <Content Include="App_Config\Include\WeBlog.Mvc.config" />
+    <None Include="Change Log.txt" />
     <Content Include="sitecore modules\web\WeBlog\Comment.svc" />
     <Content Include="sitecore modules\web\WeBlog\Images\ajax-loader.gif" />
     <Content Include="sitecore modules\web\WeBlog\Images\feed-icon-14x14.png" />
@@ -333,6 +343,13 @@
     <Content Include="sitecore\shell\Applications\WeBlog\WordpressImport.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="web.config" />
+    <None Include="web.Debug sc8.2.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release sc8.2.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup Condition="$(DefineConstants.Contains('FEATURE_EXPERIENCE_EDITOR'))">
     <Content Include="sitecore\shell\client\WeBlog\ExperienceEditor\Commands\NewCategory.js" />
@@ -358,7 +375,7 @@
     <Content Include="sitecore\shell\client\Applications\WeBlog\JsonDataSource\JsonDataSource.js" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="sitecore\shell\client\Applications\WeBlog\JsonDataSource\JsonDataSource.cshtml" />
@@ -399,39 +416,44 @@
     <Message Text="SitecoreCDPath: $(SitecoreCDPath)" />
     <Message Text="Constants: $(DefineConstants)" />
   </Target>
-  <Target Name="AfterBuild">
-    <CallTarget Targets="DeployToWeb" Condition="$(SitecorePath) != ''" />
-    <CallTarget Targets="ContentDeliveryConfig" />
-    <CallTarget Targets="TransformContentSearchConfigs72" Condition="$(Configuration.Contains('sc7.2'))" />
-    <CallTarget Targets="TransformContentSearchConfigs70" Condition="$(Configuration.Contains('sc7.0'))" />
+  <Import Project="..\..\packages\OctoPack.3.6.1\build\OctoPack.targets" Condition="Exists('..\..\packages\OctoPack.3.6.1\build\OctoPack.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\OctoPack.3.6.1\build\OctoPack.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\OctoPack.3.6.1\build\OctoPack.targets'))" />
   </Target>
-  <Target Name="DeployToWeb">
-    <CreateItem Include="@(Content)" Exclude="**\*.SC*.*;App_Config\Include\*.xslt">
-      <Output ItemName="DeployFiles" TaskParameter="Include" />
-    </CreateItem>
-    <Copy SourceFiles="@(DeployFiles)" DestinationFiles="@(DeployFiles->'$(SitecorePath)\%(RelativeDir)%(Filename)%(Extension)')" SkipUnchangedFiles="false" />
-    <Copy SourceFiles="@(DeployFiles)" DestinationFiles="@(DeployFiles->'$(SitecoreCDPath)\%(RelativeDir)%(Filename)%(Extension)')" SkipUnchangedFiles="false" Condition="$(SitecoreCDPath) != ''" />
-    <CreateItem Include="$(OutDir)\*.dll">
-      <Output ItemName="BinFiles" TaskParameter="Include" />
-    </CreateItem>
-    <Copy SourceFiles="@(BinFiles)" DestinationFolder="$(SitecorePath)\bin" />
-    <Copy SourceFiles="@(BinFiles)" DestinationFolder="$(SitecoreCDPath)\bin" Condition="$(SitecoreCDPath) != ''" />
-    <!-- Process WordPress import application for Sitecore 8+ -->
-    <Copy SourceFiles="sitecore\shell\Applications\WeBlog\WordpressImport.SC80.xml" DestinationFiles="$(SitecorePath)\sitecore\shell\Applications\WeBlog\WordpressImport.xml" Condition="$(DefineConstants.Contains('SC80'))" />
-  </Target>
-  <Target Name="ContentDeliveryConfig">
-    <XslTransformation XslInputPath="App_Config\Include\WeBlog.config.delivery.xslt" XmlInputPaths="$(SitecorePath)\App_Config\Include\WeBlog.config" OutputPaths="$(SitecorePath)\App_Config\Include\WeBlog.delivery.config.disabled" Condition="$(SitecorePath) != ''" />
-    <Copy SourceFiles="$(SitecorePath)\App_Config\Include\WeBlog.delivery.config.disabled" DestinationFiles="$(SitecoreCDPath)\App_Config\Include\WeBlog.delivery.config" Condition="$(SitecoreCDPath) != ''" />
-    <Delete Files="$(SitecoreCDPath)\App_Config\Include\WeBlog.config" Condition="$(SitecoreCDPath) != ''" />
-  </Target>
-  <Target Name="TransformContentSearchConfigs72">
-    <XslTransformation XslInputPath="App_Config\Include\WeBlog.ContentSearch.SC72.xslt" XmlInputPaths="App_Config\Include\WeBlog.ContentSearch.config" OutputPaths="$(SitecorePath)\App_Config\Include\WeBlog.ContentSearch.config" />
-    <XslTransformation XslInputPath="App_Config\Include\WeBlog.ContentSearch.Master.SC72.xslt" XmlInputPaths="App_Config\Include\WeBlog.ContentSearch.Master.config" OutputPaths="$(SitecorePath)\App_Config\Include\WeBlog.ContentSearch.Master.config" />
-    <XslTransformation XslInputPath="App_Config\Include\WeBlog.ContentSearch.Web.SC72.xslt" XmlInputPaths="App_Config\Include\WeBlog.ContentSearch.Web.config" OutputPaths="$(SitecorePath)\App_Config\Include\WeBlog.ContentSearch.Web.config" />
-  </Target>
-  <Target Name="TransformContentSearchConfigs70">
-    <XslTransformation XslInputPath="App_Config\Include\WeBlog.ContentSearch.SC70.xslt" XmlInputPaths="App_Config\Include\WeBlog.ContentSearch.config" OutputPaths="$(SitecorePath)\App_Config\Include\WeBlog.ContentSearch.config" />
-    <XslTransformation XslInputPath="App_Config\Include\WeBlog.ContentSearch.Master.SC70.xslt" XmlInputPaths="App_Config\Include\WeBlog.ContentSearch.Master.config" OutputPaths="$(SitecorePath)\App_Config\Include\WeBlog.ContentSearch.Master.config" />
-    <XslTransformation XslInputPath="App_Config\Include\WeBlog.ContentSearch.Web.SC70.xslt" XmlInputPaths="App_Config\Include\WeBlog.ContentSearch.Web.config" OutputPaths="$(SitecorePath)\App_Config\Include\WeBlog.ContentSearch.Web.config" />
-  </Target>
+  <!--  <Target Name="AfterBuild">-->
+  <!--    <CallTarget Targets="DeployToWeb" Condition="$(SitecorePath) != ''" />-->
+  <!--    <CallTarget Targets="ContentDeliveryConfig" />-->
+  <!--  </Target>-->
+  <!--  <Target Name="DeployToWeb">-->
+  <!--    <CreateItem Include="@(Content)" Exclude="**\*.SC*.*;App_Config\Include\*.xslt">-->
+  <!--      <Output ItemName="DeployFiles" TaskParameter="Include" />-->
+  <!--    </CreateItem>-->
+  <!--    <Copy SourceFiles="@(DeployFiles)" DestinationFiles="@(DeployFiles->'$(SitecorePath)\%(RelativeDir)%(Filename)%(Extension)')" SkipUnchangedFiles="false" />-->
+  <!--    <Copy SourceFiles="@(DeployFiles)" DestinationFiles="@(DeployFiles->'$(SitecoreCDPath)\%(RelativeDir)%(Filename)%(Extension)')" SkipUnchangedFiles="false" Condition="$(SitecoreCDPath) != ''" />-->
+  <!--    <CreateItem Include="$(OutDir)\*.dll">-->
+  <!--      <Output ItemName="BinFiles" TaskParameter="Include" />-->
+  <!--    </CreateItem>-->
+  <!--    <Copy SourceFiles="@(BinFiles)" DestinationFolder="$(SitecorePath)\bin" />-->
+  <!--    <Copy SourceFiles="@(BinFiles)" DestinationFolder="$(SitecoreCDPath)\bin" Condition="$(SitecoreCDPath) != ''" />-->
+  <!--    ~1~ Process WordPress import application for Sitecore 8+ @1@-->
+  <!--    <Copy SourceFiles="sitecore\shell\Applications\WeBlog\WordpressImport.SC80.xml" DestinationFiles="$(SitecorePath)\sitecore\shell\Applications\WeBlog\WordpressImport.xml" Condition="$(DefineConstants.Contains('SC80'))" />-->
+  <!--  </Target>-->
+  <!--  <Target Name="ContentDeliveryConfig">-->
+  <!--    <XslTransformation XslInputPath="App_Config\Include\WeBlog.config.delivery.xslt" XmlInputPaths="$(SitecorePath)\App_Config\Include\WeBlog.config" OutputPaths="$(SitecorePath)\App_Config\Include\WeBlog.delivery.config.disabled" Condition="$(SitecorePath) != ''" />-->
+  <!--    <Copy SourceFiles="$(SitecorePath)\App_Config\Include\WeBlog.delivery.config.disabled" DestinationFiles="$(SitecoreCDPath)\App_Config\Include\WeBlog.delivery.config" Condition="$(SitecoreCDPath) != ''" />-->
+  <!--    <Delete Files="$(SitecoreCDPath)\App_Config\Include\WeBlog.config" Condition="$(SitecoreCDPath) != ''" />-->
+  <!--  </Target>-->
+  <!--  <Target Name="TransformContentSearchConfigs72">-->
+  <!--    <XslTransformation XslInputPath="App_Config\Include\WeBlog.ContentSearch.SC72.xslt" XmlInputPaths="App_Config\Include\WeBlog.ContentSearch.config" OutputPaths="$(SitecorePath)\App_Config\Include\WeBlog.ContentSearch.config" />-->
+  <!--    <XslTransformation XslInputPath="App_Config\Include\WeBlog.ContentSearch.Master.SC72.xslt" XmlInputPaths="App_Config\Include\WeBlog.ContentSearch.Master.config" OutputPaths="$(SitecorePath)\App_Config\Include\WeBlog.ContentSearch.Master.config" />-->
+  <!--    <XslTransformation XslInputPath="App_Config\Include\WeBlog.ContentSearch.Web.SC72.xslt" XmlInputPaths="App_Config\Include\WeBlog.ContentSearch.Web.config" OutputPaths="$(SitecorePath)\App_Config\Include\WeBlog.ContentSearch.Web.config" />-->
+  <!--  </Target>-->
+  <!--  <Target Name="TransformContentSearchConfigs70">-->
+  <!--    <XslTransformation XslInputPath="App_Config\Include\WeBlog.ContentSearch.SC70.xslt" XmlInputPaths="App_Config\Include\WeBlog.ContentSearch.config" OutputPaths="$(SitecorePath)\App_Config\Include\WeBlog.ContentSearch.config" />-->
+  <!--    <XslTransformation XslInputPath="App_Config\Include\WeBlog.ContentSearch.Master.SC70.xslt" XmlInputPaths="App_Config\Include\WeBlog.ContentSearch.Master.config" OutputPaths="$(SitecorePath)\App_Config\Include\WeBlog.ContentSearch.Master.config" />-->
+  <!--    <XslTransformation XslInputPath="App_Config\Include\WeBlog.ContentSearch.Web.SC70.xslt" XmlInputPaths="App_Config\Include\WeBlog.ContentSearch.Web.config" OutputPaths="$(SitecorePath)\App_Config\Include\WeBlog.ContentSearch.Web.config" />-->
+  <!--  </Target>-->
 </Project>

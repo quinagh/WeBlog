@@ -1,0 +1,22 @@
+﻿---
+ID: "0297a5b4-eaf4-4b5b-bdad-23d802f6f9cb"
+Parent: "857fd02f-d166-42cc-944b-c97159a259aa"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Modules/WeBlog/Base/BlogEntry/Entry
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: /sitecore/shell/Themes/Standard/Business/16x16/note.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20081030T214000
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

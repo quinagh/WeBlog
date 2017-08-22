@@ -1,0 +1,24 @@
+﻿---
+ID: "da2888b7-a131-4096-a550-90948d07f065"
+Parent: "448a760f-07e3-441c-8275-213f2d175795"
+Template: "448a760f-07e3-441c-8275-213f2d175795"
+Path: /sitecore/templates/Modules/WeBlog/Rendering Parameters/Interesting Posts/__Standard Values
+DB: master
+SharedFields:
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151031T142354Z
+    - ID: "6a570a28-884e-4d2e-ad39-1dbfabfd53c8"
+      Hint: Mode
+      Value: PageViews
+    - ID: "73847eac-ec00-4921-9a24-a8b3ffd35181"
+      Hint: MaximumCount
+      Value: 5

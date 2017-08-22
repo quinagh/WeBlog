@@ -1,0 +1,28 @@
+﻿---
+ID: "df7cab47-015f-430f-8bae-452a4d2d7a17"
+Parent: "a47d8623-99e0-4b9c-bf9e-d6424d8de0e6"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Modules/WeBlog/Base/BlogHome/Blog settings/Theme
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "query:/sitecore/system/Modules/WeBlog/Themes/*[@@templateid='{A629B15F-427B-45D4-A171-CEC4FB8B5A22}']"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Droplink
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090414T005510
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

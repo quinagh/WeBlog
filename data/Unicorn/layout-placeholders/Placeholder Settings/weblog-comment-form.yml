@@ -1,0 +1,30 @@
+﻿---
+ID: "5f31d61f-4ab7-499a-9219-3f9cd172a516"
+Parent: "1ce3b36c-9b0c-4eb5-a996-bfcb4eaa5287"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/weblog-comment-form"
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "weblog-comment-form"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {53F12198-7C37-4611-8F28-386FE944B4D2}
+    {F8A28E5F-10BF-4BDA-8CBB-6105E73AB5DC}
+    {25C05A79-B811-4E1D-A501-A1F5B9DB11BB}
+    {E252152A-83E8-4423-9661-6E7CB1727E4C}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20110403T190424
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

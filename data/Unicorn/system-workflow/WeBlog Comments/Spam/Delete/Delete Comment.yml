@@ -1,0 +1,22 @@
+﻿---
+ID: "ed0472d6-2971-4217-aee2-b7b96366f5fc"
+Parent: "909ad43d-8391-4147-a18d-2bb304d4e71d"
+Template: "66882e97-c8aa-4e37-8901-7a8aa35ed2ed"
+Path: /sitecore/system/Workflows/WeBlog Comments/Spam/Delete/Delete Comment
+DB: master
+SharedFields:
+- ID: "a291a22b-99e2-46bb-a27b-8ec744275396"
+  Hint: Type
+  Value: Sitecore.Modules.WeBlog.Workflow.DeleteItemAction,Sitecore.Modules.WeBlog
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120109T134900
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

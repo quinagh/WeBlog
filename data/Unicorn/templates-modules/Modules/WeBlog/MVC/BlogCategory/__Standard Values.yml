@@ -1,0 +1,98 @@
+﻿---
+ID: "298bdcbd-ca92-4b95-b2a8-b7e09d758a60"
+Parent: "6c455315-01bf-4e2e-9ba3-31b5695e9c77"
+Template: "6c455315-01bf-4e2e-9ba3-31b5695e9c77"
+Path: /sitecore/templates/Modules/WeBlog/MVC/BlogCategory/__Standard Values
+DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{F90AE597-8499-4557-A0D5-64EB5135A5B7}">
+        <r
+          ds=""
+          id="{B62C7429-C491-4815-81EB-214903DB76E4}"
+          par=""
+          ph="weblog-content"
+          uid="{519F319A-BB46-4A00-8319-B10CD5FF6031}" />
+        <r
+          ds=""
+          id="{B4FA3FA9-FC75-42B5-99CA-499F778251BB}"
+          par="PostTemplate"
+          ph="weblog-main"
+          uid="{7B572A4F-D434-4EE0-8298-2784298B7EE1}" />
+        <r
+          cac="1"
+          ds=""
+          id="{1009037A-4F6B-45F0-B55F-F9D5CE37C8CE}"
+          par="VaryByBlog=1"
+          ph="weblog-sidebar"
+          uid="{9AB0519F-753B-43E5-9DB2-9D23D4334960}"
+          vbp="1" />
+        <r
+          cac="1"
+          ds=""
+          id="{B1D7C514-F638-4531-9824-070AC21932B8}"
+          par="VaryByBlog=1"
+          ph="weblog-sidebar"
+          uid="{57F227FA-295A-4A67-BE15-1FC30303BF6A}"
+          vbp="1" />
+        <r
+          cac="1"
+          ds=""
+          id="{46A3FA47-F01A-42AF-9F83-4EB04ACE7235}"
+          par="VaryByBlog=1"
+          ph="weblog-sidebar"
+          uid="{DAC7C38C-B5FA-4855-ABBC-AEB4EF82D4DB}"
+          vbp="1" />
+        <r
+          cac="1"
+          ds=""
+          id="{936CF0DC-E259-4966-8944-16400899A17C}"
+          par="VaryByBlog=1"
+          ph="weblog-sidebar"
+          uid="{5DA6458D-B784-4922-946E-FAED0F7647F0}"
+          vbp="1" />
+        <r
+          ds=""
+          id="{D9D6833D-F044-4204-B7C9-3912135E32EA}"
+          par="Title&amp;MaximumCount=5&amp;VaryByBlog&amp;Mode=PageViews"
+          ph="weblog-sidebar"
+          uid="{15C610DB-138E-4ACF-91E4-31AA8E231070}" />
+        <r
+          ds=""
+          id="{240F2B73-20D6-4476-80E2-0D23FF841562}"
+          par=""
+          ph="weblog-sidebar"
+          uid="{2C93122A-AC9A-40F6-BA99-76D8977E4C40}" />
+      </d>
+      <d
+        id="{CF7D07C2-F835-4313-B01D-7AADCA72D24B}"
+        l="{EE93A8A4-6272-42B6-8329-8F28F631F412}">
+        <r
+          ds=""
+          id="{B4FA3FA9-FC75-42B5-99CA-499F778251BB}"
+          par="PostTemplate"
+          ph="weblog-content"
+          uid="{E7C0A81B-427F-4B72-8FCC-2FBB2A551CEA}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151031T145436Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "e6acfe8b-f489-4955-be43-1a831556a463"
+      Hint: Title
+      Value: $name

@@ -1,0 +1,28 @@
+﻿---
+ID: "37253682-abb8-4f5d-ae4b-8ee5e3200a72"
+Parent: "0c85b40f-73ae-4652-9f3e-b756b8cb0c1a"
+Template: "0c85b40f-73ae-4652-9f3e-b756b8cb0c1a"
+Path: /sitecore/templates/Modules/WeBlog/Rendering Parameters/Tag Cloud/__Standard Values
+DB: master
+SharedFields:
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0|0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160221T194407Z
+    - ID: "c47cb727-d3bf-4b85-a50d-c539e64c463d"
+      Hint: MaximumCount
+      Value: 20
+    - ID: "dfbdd603-109f-419c-9806-9c023170f31e"
+      Hint: SortingOptions
+      Type: Multilist
+      Value: |
+        {FCAA5EB2-EFAE-4F64-BEC6-1A11E091F25A}
+        {36B3EBDC-43D2-454B-AEF0-2FBDE5A1D769}
+        {2226A6A2-FF35-423A-91F6-CE545B491E65}

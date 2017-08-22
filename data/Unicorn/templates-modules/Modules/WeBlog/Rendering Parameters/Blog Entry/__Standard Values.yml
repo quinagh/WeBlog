@@ -1,0 +1,34 @@
+﻿---
+ID: "52842991-e92e-42f6-b73f-00a5ee889000"
+Parent: "91395fde-8cc3-4129-a775-0b29833563ab"
+Template: "91395fde-8cc3-4129-a775-0b29833563ab"
+Path: /sitecore/templates/Modules/WeBlog/Rendering Parameters/Blog Entry/__Standard Values
+DB: master
+SharedFields:
+- ID: "1e2e9777-ec91-4450-90a1-b03f5c4e6474"
+  Hint: ShowEntryTitle
+  Type: Checkbox
+  Value: 1
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0
+- ID: "cf43862c-62c7-4079-8807-d0ab5b264851"
+  Hint: ShowEntryImage
+  Type: Checkbox
+  Value: 1
+- ID: "ffa1df5c-d7fa-40b4-9b29-88fb89687aa6"
+  Hint: ShowEntryMetadata
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20111017T164903
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

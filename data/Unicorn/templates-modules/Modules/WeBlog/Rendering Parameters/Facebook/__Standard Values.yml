@@ -1,0 +1,34 @@
+﻿---
+ID: "18b27dd0-783c-4186-bde3-43ad93548591"
+Parent: "3ffc7ec3-8eea-4150-8043-940212307b3f"
+Template: "3ffc7ec3-8eea-4150-8043-940212307b3f"
+Path: /sitecore/templates/Modules/WeBlog/Rendering Parameters/Facebook/__Standard Values
+DB: master
+SharedFields:
+- ID: "17253db7-5a35-4bc5-862a-5e9947776b14"
+  Hint: LayoutStyle
+  Value: standard
+- ID: "21f0fa50-403f-4987-9b01-df876f5f98b6"
+  Hint: ColorScheme
+  Value: light
+- ID: "24d23849-7e96-4fb8-b3b3-6bdf82c608c4"
+  Hint: Width
+  Value: 300
+- ID: "3094d236-5985-4c4f-ae6a-e30740885532"
+  Hint: Caching
+  Value: 0|0|0|0|0|0|0
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20111011T170900
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

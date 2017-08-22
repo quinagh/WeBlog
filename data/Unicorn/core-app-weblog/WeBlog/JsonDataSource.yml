@@ -1,0 +1,52 @@
+﻿---
+ID: "1710a808-2190-4e80-b6ee-1a41909fa608"
+Parent: "b1d1c40d-40f7-4b05-9df5-023b765cd73a"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/client/Applications/WeBlog/JsonDataSource
+DB: core
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Control/16x16/datasource_b.png
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /sitecore/shell/client/Applications/WeBlog/JsonDataSource/JsonDataSource.cshtml
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{8316801F-4D1B-4D0A-832F-393D498DA6A1}"
+- ID: "989631c3-8cd3-4d04-a996-7c1f4eec75a4"
+  Hint: Default Parameters
+  Value: Placeholder=Page.Body&Id=DataSource
+- ID: "ef7c5528-7307-4e19-863b-da19eed6a9ed"
+  Hint: Open Properties after Add
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r>
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{75CC5CE4-8979-4008-9D3C-806477D57619}">
+        <r
+          id="{4B77BB29-C937-4620-A6CC-A14B1A38DE8A}"
+          par="Id=RenderView&amp;Path=%2fsitecore%2fshell%2fclient%2fSpeak%2fContent%2fDocumentation%2fExamples%2fQueryDataSource.cshtml"
+          uid="{358D4F65-74FF-4026-BB46-D9984DA2AE8E}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: QueryDataSource control enables retrieving Sitecore items specified by Sitecore Query or Sitecore Fast Query.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20121113T140808
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

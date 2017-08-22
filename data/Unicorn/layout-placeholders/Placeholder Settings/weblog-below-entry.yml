@@ -1,0 +1,40 @@
+﻿---
+ID: "837cfd12-e201-4649-bc99-0ab87c2fe17e"
+Parent: "1ce3b36c-9b0c-4eb5-a996-bfcb4eaa5287"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/weblog-below-entry"
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "weblog-below-entry"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: |
+    {2C63DA92-46FA-4244-9684-EAC101BED6C7}
+    {9E95604C-C69C-4CBC-A087-B1D9236B77D7}
+    {FCCDE0B2-DD05-4E1E-A253-E53D42659726}
+    {FE9601F1-7522-48E6-BB71-4791C617F4B2}
+    {8D7408D6-0E04-4BDF-BECE-EEEB08EB9B4A}
+    {D5DE2CA5-8550-4F46-9545-3C4376BF7E0F}
+    {DE1B6D0B-6988-4B31-B469-EAD66F2F6ED3}
+    {87458217-BEA0-4124-AFCA-054E525E0B28}
+    {9FA51195-2117-4F85-865B-7C8C2BED786B}
+    {DF4CA27D-8B0E-48B4-BD14-827384B78AD9}
+    {69295495-7625-4198-9B39-7A948CAFADBB}
+    {C35D69F8-3505-4712-A511-60E272402113}
+    {A1CA8C78-C7F2-4FE0-A66E-97C28A62DCF3}
+    {088DBEE2-DB40-40CA-A808-9B2A3A9477E2}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20110409T101900
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous

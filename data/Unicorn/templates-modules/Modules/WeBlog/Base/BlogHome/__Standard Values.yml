@@ -1,0 +1,32 @@
+﻿---
+ID: "c27e310d-256d-4227-9b33-19a02e8f7d12"
+Parent: "161bb1ef-1c4b-486a-8a1b-3234d441ec74"
+Template: "161bb1ef-1c4b-486a-8a1b-3234d441ec74"
+Path: /sitecore/templates/Modules/WeBlog/Base/BlogHome/__Standard Values
+DB: master
+SharedFields:
+- ID: "0647cdec-8d6f-4902-88ab-0334258ee812"
+  Hint: Maximum Thumbnail Image Size
+  Value: 150x150
+- ID: "ac51462c-8a8d-493b-9492-34d1f26f20f1"
+  Hint: __Default Bucket Query
+  Value: "custom:_templatename|blogentry;custom:_templatename|blogcomment;sort:created date"
+- ID: "d312103c-b36c-4ca5-864a-c85f9abda503"
+  Hint: __Is Bucket
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151129T135143Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "df7cab47-015f-430f-8bae-452a4d2d7a17"
+      Hint: Theme
+      Value: "{F16C3B65-65D1-4B09-BC04-BDA2D63211B1}"

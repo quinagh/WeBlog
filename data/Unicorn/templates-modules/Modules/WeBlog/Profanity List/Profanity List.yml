@@ -1,0 +1,18 @@
+﻿---
+ID: "62a634cc-80e3-488b-82d3-f7e6fb4d5134"
+Parent: "42640783-aa26-4895-9af1-bafdacf8cffd"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Modules/WeBlog/Profanity List/Profanity List
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151213T220431Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

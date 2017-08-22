@@ -1,0 +1,22 @@
+﻿---
+ID: "9b46e232-f64a-47e2-a1eb-2aa73334f019"
+Parent: "8316801f-4d1b-4d0a-832f-393d498da6a1"
+Template: "8316801f-4d1b-4d0a-832f-393d498da6a1"
+Path: /sitecore/client/Applications/WeBlog/JsonDataSource/JsonDataSource Parameters/__Standard Values
+DB: core
+SharedFields:
+- ID: "d69eab2e-c9eb-44c1-82d3-b0db2f21007b"
+  Hint: Json
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20121113T143343
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

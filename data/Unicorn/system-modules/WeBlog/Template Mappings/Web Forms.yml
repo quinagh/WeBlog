@@ -1,0 +1,30 @@
+﻿---
+ID: "0c3b6145-4a8c-4ca8-89d5-6ce1aff0c5b5"
+Parent: "0b1fd353-3175-43a0-9a81-13b18d99408e"
+Template: "df1783c7-8448-42a1-a9ae-86c97a7f5b64"
+Path: /sitecore/system/Modules/WeBlog/Template Mappings/Web Forms
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160817T204151Z
+    - ID: "37d3acef-f8b8-4e0c-a12f-4bdbd94a8338"
+      Hint: BlogEntryTemplate
+      Value: "{5FA92FF4-4AC2-48E2-92EB-E1E4914677B0}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "abcb1890-38cf-4599-865f-3b754b55ea1c"
+      Hint: BlogCommentTemplate
+      Value: "{70949D4E-35D8-4581-A7A2-52928AA119D5}"
+    - ID: "b4bdea2c-cdb6-428a-8ddc-f9178406978e"
+      Hint: BlogCategoryTemplate
+      Value: "{61FF8D49-90D7-4E59-878D-DF6E03400D3B}"
+    - ID: "d6269811-be20-415e-af48-2bf9f2f2ac38"
+      Hint: BlogRootTemplate
+      Value: "{46663E05-A6B8-422A-8E13-36CD2B041278}"

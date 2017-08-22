@@ -1,0 +1,25 @@
+﻿---
+ID: "218c8c75-5b23-49c8-bec4-eec510f8bc7d"
+Parent: "f16c3b65-65d1-4b09-bc04-bda2d63211b1"
+Template: "e7fe27d8-1999-492a-99bf-53e66c2fc310"
+Path: /sitecore/system/Modules/WeBlog/Themes/Kirk/Load more script
+DB: master
+SharedFields:
+- ID: "906c629f-e173-4b48-b415-32eb14474592"
+  Hint: Url
+  Value: "/sitecore modules/Web/WeBlog/Themes/common/load-more.js"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160212T124518Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
