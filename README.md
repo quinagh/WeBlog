@@ -1,10 +1,11 @@
 Note: I only needed this to work with Sitecore 8.2 so I may have trampled over configs for 7.x :/
 
 The changes here are based on the work in https://github.com/WeTeam/WeBlog/issues/172 but also conversion of the Sitecore Items to Unicorn YML files.
+Some more work needed for Sitecore 9
 
 # WeBlog #
 
-A blog module for Sitecore 7.0+
+A blog module for Sitecore 8.2
 
 ## Features ##
 
